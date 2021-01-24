@@ -18,29 +18,49 @@
                 <label for="email">Email</label>
                 <input type="email" name="Email" id="email" placeholder="Enter your email..." required>
             </div>
-            <div id="id">
+            <div>
                 <label for="number">Age</label>
                 <input type="number" name="Age" placeholder="Age"
                 id="number" min="10" max="65">
             </div>
-            <div id="id">
+            <div>
                <label for="dropdown">Current Role</label>
                <select name="Current role" id="dropdown">
                    <option value="Student" label="Student"></option>
                    <option value="Full time Job " label="Full Time"></option>
                    <option value="Full time Learner" label="Full time Learner"></option>
                    <option value="Prefer not to say" label="Prefer not to say"></option>
-                   <option value="other" label="label"></option>
+                   <option value="other" label="other"></option>
                </select>
-
             </div>
-             <div id="id"></div>
-             <div id="id"></div>
-             <div id="id"></div>
-             <div id="id"></div>
-            
+             <div>
+                 <P>Would you recommend ICCW Techonology to friends to a friend?</P>
+                <label for="Definitely">Definitely</label>
+                <input type="radio" name="Recommend to friends" id="Definitely" value="Definitely">
+                <label for="Sure">Sure</label>
+                <input type="radio" name="Recommend to friends" id="Sure" value="Sure">
+                <label for="Note sure">Not sure</label>
+                <input type="radio" name="Recommend to friends" id="Note sure" value="Note sure">
+            </div>
+            <div>
+                 <p>From Where You Know Us</p>
+                <label for="google">Google</label>
+                <input type="checkbox" name="origin" value="goolge" id="google">
+                <label for="youtube">youtube</label>
+                <input type="checkbox" name="origin" value="youtube" id="youtube">
+                <label for="Advertisement">Advertisement</label>
+                <input type="checkbox" name="origin" value="Advertisement" id="Advertisement">
+                <label for="Facebook">Facebook</label>
+                <input type="checkbox" name="origin" value="Facebook" id="Facebook">
+            </div>
+            <div>
+                <label for="textarea">Any comments or suggestions?</label>
+               <textarea name="textarea" id="textarea" cols="40" rows="5" placeholder="Enter The Text here"></textarea> 
+            </div>
+             <div>
+                <input type="submit" value="submit">
+             </div>    
         </form>
-
     </main>
 </body>
 </html>
