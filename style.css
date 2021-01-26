@@ -4,11 +4,98 @@ body{
     line-height: 1.5;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    color: cornsilk;
+    background-color: darkslateblue;
 }
 h1{
     text-align: center;
-    padding: 20px;
-    color: darkblue;
+    padding: 25px 25px 0px 25px;
+    margin: 0;
     font-size: 36px;
+}
+#discription{
+    text-align: center;
+    color:cornsilk;
+    font-size: 20px;
+    font-weight: inherit;
+    margin-top: 0px;
+}
+span{
+    color:#D81159;
+}
+#header{
+   background-color:#1c0c57;
+   border-bottom:#D81159 3px solid;
+   height: 20vmin;
+}
+#survey-form{
+    border: #351e88 solid 1px;
+    background-color:  #351e88;
+    width: 60%;
+    border-radius:1rem;
+    min-height: 75vh;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 50px;
+}
+#name{
+    padding: 10px;
+    width: 95%;
+    border-radius: 1ex;
+    display: block;
+    margin: auto;  
+}
+#top{
+    display: flex;
+    margin-left: 4px;
+}
+#email{
+    padding: 10px;
+    width: 95%;
+    border-radius: 1ex;
+    display: block;
+    margin: auto;  
+}
+#two{
+    display: flex;
+    margin-left: 4px;
+    margin-top: 15px;
+}
+#number{
+    padding: 10px;
+    width: 95%;
+    border-radius: 1ex;
+    display: block;
+    margin: auto;  
+}
+#three{
+    display: flex;
+    margin-left: 4px;
+    margin-top: 15px;
+}
+#dropdown{
+    padding: 10px;
+    width: 99%;
+    border-radius: 1ex;
+    display: block;
+    margin: auto;  
+}
+#forth{
+    display: flex;
+    margin-left: 4px;
+    margin-top: 15px;
+}
+#para{
+    display: flex;
+    margin-left: 4px;
+    margin-top: 15px  
+}
+[type=radio]{
+    display: block;
+}
+#def{
+    display: flex;
+    margin-left: 35px;
 }

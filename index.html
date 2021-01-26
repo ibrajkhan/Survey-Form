@@ -8,24 +8,26 @@
 </head>
 <body>
     <main id="main">
-        <h1>Ikhan Technology Survey Form</h1>
-        <em id="discription">Thank you for taking the time to help us improve the platform</em>
+        <div id="header">
+            <h1><span>Ikhan</span> Technology Survey Form</h1>
+        <em id="discription"><center>Thank you for taking the time to help us improve the platform</center> </em>
+        </div>
         <form action="" id="survey-form">
             <div>
-                <label for="name" >Name</label>
+                <label for="name" id="top">Name</label>
                 <input type="text" id="name" name="Name" placeholder="Enter your name...">     
             </div>
             <div>
-                <label for="email">Email</label>
+                <label for="email" id="two">Email</label>
                 <input type="email" name="Email" id="email" placeholder="Enter your email..." required>
             </div>
             <div>
-                <label for="number">Age</label>
+                <label for="number" id="three">Age</label>
                 <input type="number" name="Age" placeholder="Age"
                 id="number" min="10" max="65">
             </div>
             <div>
-               <label for="dropdown">Current Role</label>
+               <label for="dropdown" id="forth">Current Role</label>
                <select name="Current role" id="dropdown">
                    <option value="Student" label="Student"></option>
                    <option value="Full time Job " label="Full Time"></option>
@@ -35,13 +37,16 @@
                </select>
             </div>
              <div>
-                 <P>Would you recommend ICCW Techonology to friends to a friend?</P>
-                <label for="Definitely">Definitely</label>
-                <input type="radio" name="Recommend to friends" id="Definitely" value="Definitely">
-                <label for="Sure">Sure</label>
-                <input type="radio" name="Recommend to friends" id="Sure" value="Sure">
-                <label for="Note sure">Not sure</label>
-                <input type="radio" name="Recommend to friends" id="Note sure" value="Note sure">
+                 <P id="para">Would you recommend ICCW Techonology to friends to a friend?</P>
+                 <div id="rad">
+                    <label for="Definitely" id="def">Definitely</label>
+                    <input type="radio" name="Recommend to friends" id="Definitely" value="Definitely">
+                    <label for="Sure">Sure</label>
+                    <input type="radio" name="Recommend to friends" id="Sure" value="Sure">
+                    <label for="Note sure">Not sure</label>
+                    <input type="radio" name="Recommend to friends" id="Note sure" value="Note sure">
+                 </div>
+                   
             </div>
             <div>
                  <p>From Where You Know Us</p>
