@@ -101,4 +101,17 @@ input[type=checkbox]{
     color: cornsilk;
     font-weight: bolder;
 }
+@media(max-width:768px){
+    #header{
+        height: 25vmin;
+    }
+    h1{
+        font-size: 25px;
+        margin-bottom: -15px;
+    }
+    #discription{
+        font-size: 17px;
+        padding: 15px;
+    }
+}
 
