@@ -40,9 +40,9 @@ span{
     margin-top: 50px;
     padding: 50px;
 }
-#name{
+.field{
     padding: 10px;
-    width: 95%;
+    width: 100%;
     border-radius: 1ex;
     display: block;
     margin: auto;  
@@ -51,38 +51,7 @@ span{
     display: flex;
     margin-left: 4px;
 }
-#email{
-    padding: 10px;
-    width: 95%;
-    border-radius: 1ex;
-    display: block;
-    margin: auto;  
-}
-#two{
-    display: flex;
-    margin-left: 4px;
-    margin-top: 15px;
-}
-#number{
-    padding: 10px;
-    width: 95%;
-    border-radius: 1ex;
-    display: block;
-    margin: auto;  
-}
-#three{
-    display: flex;
-    margin-left: 4px;
-    margin-top: 15px;
-}
-#dropdown{
-    padding: 10px;
-    width: 99%;
-    border-radius: 1ex;
-    display: block;
-    margin: auto;  
-}
-#forth{
+.label{
     display: flex;
     margin-left: 4px;
     margin-top: 15px;
@@ -90,12 +59,46 @@ span{
 #para{
     display: flex;
     margin-left: 4px;
-    margin-top: 15px  
+    margin-top: 40px  
 }
-[type=radio]{
-    display: block;
+#rad{
+   text-align: start;
+   margin-top: -30px;
 }
-#def{
-    display: flex;
-    margin-left: 35px;
+input[type=radio]{
+    margin-top: 25px;
+     width: 2em;
+     height: 2em;   
 }
+.container{
+   padding-left: 25px;
+   padding-bottom: em;
+}
+input[type=checkbox]{
+    margin-top: 25px;
+     width: 2em;
+     height: 2em;   
+}
+#texta{
+   display: flex;
+   flex-direction: column;
+}
+#textarea{
+   height: 120px;
+   border-radius: 1ex;
+   font-size: 18px; 
+}
+#submit{
+ height: 60px;
+ margin-top:30px ;
+ width: 100%;
+ border-radius: 1ex;
+ font-size: 22px;
+ border: 3px solid #D81159; 
+}
+#submit:hover{
+    background-color:#D81159;
+    color: cornsilk;
+    font-weight: bolder;
+}
+

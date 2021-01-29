@@ -15,20 +15,21 @@
         <form action="" id="survey-form">
             <div>
                 <label for="name" id="top">Name</label>
-                <input type="text" id="name" name="Name" placeholder="Enter your name...">     
+                <input type="text" id="name" name="Name" class="field" placeholder="Enter your name...">     
             </div>
             <div>
-                <label for="email" id="two">Email</label>
-                <input type="email" name="Email" id="email" placeholder="Enter your email..." required>
+                <label for="email" class="label">Email</label>
+                <input type="email" name="Email" id="email" class="field" placeholder="Enter your email..." required>
             </div>
             <div>
-                <label for="number" id="three">Age</label>
-                <input type="number" name="Age" placeholder="Age"
+                <label for="number" class="label">Age</label>
+                <input type="number" class="field" name="Age" placeholder="Age"
                 id="number" min="10" max="65">
             </div>
             <div>
-               <label for="dropdown" id="forth">Current Role</label>
-               <select name="Current role" id="dropdown">
+               <label for="dropdown" class="label">Current Role</label>
+               <select name="Current role" id="dropdown" class="field">
+                  <option  label="--Select from here--"></option>
                    <option value="Student" label="Student"></option>
                    <option value="Full time Job " label="Full Time"></option>
                    <option value="Full time Learner" label="Full time Learner"></option>
@@ -39,32 +40,34 @@
              <div>
                  <P id="para">Would you recommend ICCW Techonology to friends to a friend?</P>
                  <div id="rad">
-                    <label for="Definitely" id="def">Definitely</label>
                     <input type="radio" name="Recommend to friends" id="Definitely" value="Definitely">
-                    <label for="Sure">Sure</label>
+                    <label for="Definitely" class="container">Definitely</label><br>
                     <input type="radio" name="Recommend to friends" id="Sure" value="Sure">
-                    <label for="Note sure">Not sure</label>
+                    <label for="Sure" class="container">Sure</label><br>
                     <input type="radio" name="Recommend to friends" id="Note sure" value="Note sure">
+                    <label for="Note sure" class="container">Not sure</label><br>
                  </div>
+                </div>
                    
             </div>
-            <div>
-                 <p>From Where You Know Us</p>
-                <label for="google">Google</label>
+            
+            <p id="para">From Where You Know Us</p>
+             <div id="rad">
                 <input type="checkbox" name="origin" value="goolge" id="google">
-                <label for="youtube">youtube</label>
+                <label for="google" class="container" >Google</label><br>
                 <input type="checkbox" name="origin" value="youtube" id="youtube">
-                <label for="Advertisement">Advertisement</label>
+                <label for="youtube" class="container">youtube</label><br>
                 <input type="checkbox" name="origin" value="Advertisement" id="Advertisement">
-                <label for="Facebook">Facebook</label>
+                <label for="Advertisement" class="container">Advertisement</label><br>
                 <input type="checkbox" name="origin" value="Facebook" id="Facebook">
-            </div>
-            <div>
-                <label for="textarea">Any comments or suggestions?</label>
-               <textarea name="textarea" id="textarea" cols="40" rows="5" placeholder="Enter The Text here"></textarea> 
+                <label for="Facebook" class="container">Facebook</label><br>
+             </div>
+            <div id="texta">
+                <label for="textarea" id="para">Any comments or suggestions?</label>
+               <textarea name="textarea" id="textarea" cols="40" rows="5" placeholder="Enter The Text here..."></textarea> 
             </div>
              <div>
-                <input type="submit" value="submit">
+                <input type="submit" value="Submit" id="submit">
              </div>    
         </form>
     </main>
