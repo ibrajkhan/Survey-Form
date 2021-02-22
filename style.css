@@ -103,10 +103,10 @@ input[type=checkbox]{
 }
 @media(max-width:768px){
     #header{
-        height: 22vmin;
+        height: 25vmin;
     }
     h1{
-        font-size: 22px;
+        font-size: 20px;
         margin-bottom: -15px;
     }
     #discription{
