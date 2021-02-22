@@ -56,10 +56,15 @@ span{
     margin-left: 4px;
     margin-top: 15px;
 }
+/*#headings{
+    padding-top: 30px;
+    position: relative;
+    right: 10px;
+}*/
 #para{
     display: flex;
     margin-left: 4px;
-    margin-top: 40px  
+    margin-top: 40px   
 }
 #rad{
    text-align: start;
